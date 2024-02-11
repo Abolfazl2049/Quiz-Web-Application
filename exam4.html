@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="body">
+    <nav><a href="#">contact</a><a href="profile.html"><img src="img/account_circle_FILL0_white.svg" alt="" style="float: right;"></a><a href="index.html">Home</a><button onclick="DLmode()"><img class="img-nav4" src="img/Light.svg" alt="" srcset=""></button></nav>
+    <div id="background">
+        <div><h3>your score is :</h3>
+        <h1 id="examScore"></h1>
+        <a href="index.html"><button>Back to homepage</button></a>
+    </div>
+        
+    </div>
+    <div class="exam-container">
+        <div class="exam-flex-1 js1"><p>
+            <img src="img/shuffle_on_FILL0_wght400_GRAD0_opsz24.svg" alt="" srcset=""><br>
+            Random Question Exam <br>
+            <p id="questionCounter">question 1 out of 10</p>
+        </p>
+        <h4 id="questionP">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, accusantium, omnis suscipit eius molestiae rem perspiciatis itaque sit dolor volu ?</h4>
+        <div class="progress"><div class="progress-bar"></div></div>
+</div>
+
+        <div class="exam-flex-2 js2">
+            <p id="Adtext"></p>
+            <button class="butlink" id="Bone"><img src="img/looks_one_FILL0_wght400_GRAD0_opsz24.svg" alt="" srcset=""><label class="container2">
+                <input type="checkbox" id="inputOne">
+                <span class="checkmark"></span>
+              </label><p>one</p></button>
+            <button class="butlink" id="Btwo"><img src="img/looks_two_FILL0_wght400_GRAD0_opsz24.svg" alt=""><label class="container2">
+                <input type="checkbox" id="inputTwo">
+                <span class="checkmark"></span>
+              </label><p>two</p></button>
+            <button class="butlink" id="Bthree"><img src="img/looks_3_FILL0_wght400_GRAD0_opsz24.svg" alt="" srcset=""><label class="container2">
+                <input type="checkbox" id="inputThree">
+                <span class="checkmark"></span>
+              </label><p>three</p></button>
+            <button class="butlink" id="Bfour"><img src="img/looks_4_FILL0_wght400_GRAD0_opsz24.svg" alt="" srcset=""><label class="container2">
+                <input type="checkbox" id="inputFour">
+                <span class="checkmark"></span>
+              </label><p>four</p></button>
+            <button id="buttonT" style="background-color: #a529f5;text-align: center;" onclick="exam1()">Submit</button>
+            <button id="buttonC" style="background-color: #a529f5;text-align: center;display: none;" onclick="Continue()">Continue</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
