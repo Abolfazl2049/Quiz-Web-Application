@@ -16,6 +16,7 @@ let currentE = 0;
 let progress = document.querySelector(".progress-bar");
 let ExamScoreR = document.getElementById("examScore");
 let ExamScore = document.getElementById("background");
+localStorage.setItem('Tscore','0')
 setInterval(globalscorecounter),1000
 function globalscorecounter(){
   document.getElementById("Tscore").innerText = localStorage.getItem("Tscore")
